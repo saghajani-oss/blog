@@ -18,7 +18,7 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
     <!-- CUSTOM STYLESHEET -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
 <section class="form__section">
@@ -31,7 +31,7 @@
             <input type="text" placeholder="Username or Email">
             <input type="password" placeholder="Password">
             <button type="submit" class="btn">Sign Up</button>
-            <small>Do'nt have an account?<a href="signup.html">Sign Up</a></small>
+            <small>Do'nt have an account?<a href="signup.php">Sign Up</a></small>
         </form>
     </div>
 </section>

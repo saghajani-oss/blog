@@ -21,7 +21,7 @@ include "partials/header.php"
               >
             </li>
             <li>
-              <a href="index.php"
+              <a href="index.php" class="active"
                 ><i class="uil uil-file-edit-alt"></i>
                 <h5>Manage Posts</h5></a
               >
@@ -33,7 +33,7 @@ include "partials/header.php"
               >
             </li>
             <li>
-              <a href="manage-users.php" class="active"
+              <a href="manage-users.php"
                 ><i class="uil uil-users-alt"></i>
                 <h5>Manage User</h5></a
               >
@@ -53,50 +53,46 @@ include "partials/header.php"
           </ul>
         </aside>
         <main>
-          <h2>Manage Users</h2>
+          <h2>Manage Posts</h2>
           <table>
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Username</th>
+                <th>Title</th>
+                <th>Category</th>
                 <th>Edit</th>
                 <th>Delete</th>
-                <th>Admin</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Samira Aghajani</td>
-                <td>Samira</td>
-                <td><a href="edit-user.php" class="btn sm">Edit</a></td>
+                <td>What is Street Art?</td>
+                <td>Art</td>
+                <td><a href="edit-post.php" class="btn sm">Edit</a></td>
                 <td>
                   <a href="delete.category.php" class="btn sm danger"
                     >Delete</a
                   >
                 </td>
-                <td>Yes</td>
               </tr>
               <tr>
-                <td>Bardia Moradi</td>
-                <td>Bardia</td>
-                <td><a href="edit-user.php" class="btn sm">Edit</a></td>
+                <td>What is a chameleon?</td>
+                <td>Wild life</td>
+                <td><a href="edit-post.php" class="btn sm">Edit</a></td>
                 <td>
                   <a href="delete.category.php" class="btn sm danger"
                     >Delete</a
                   >
                 </td>
-                <td>No</td>
               </tr>
               <tr>
-                <td>Mona Saadat</td>
-                <td>Mona</td>
-                <td><a href="edit-user.php" class="btn sm">Edit</a></td>
+                <td>Why do festivals bring joy to humans?</td>
+                <td>Society</td>
+                <td><a href="edit-post.php" class="btn sm">Edit</a></td>
                 <td>
                   <a href="delete.category.php" class="btn sm danger"
                     >Delete</a
                   >
                 </td>
-                <td>No</td>
               </tr>
             </tbody>
           </table>
@@ -104,8 +100,9 @@ include "partials/header.php"
       </div>
     </section>
     <!-- ======================================================== MANAGE CATEGORIES SECTION ======================================================== -->
-<?php 
-include "../partials/footer.php"
-?>
+
+    <?php 
+    include "../partials/footer.php"
+    ?>
     <!-- ======================================================== END OF FOOTER SECTION ======================================================== -->
-   
+    
